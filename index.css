@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.mx-auto {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.list-group {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.list-group-item {
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item[data-completed="true"] {
+    background-color: #ccffcc;
+}
+
+.list-group-item[data-completed="false"] {
+    background-color: #ffffb3;
+}
+
+.action {
+    cursor: pointer;
+    margin-left: 20px;
+}
